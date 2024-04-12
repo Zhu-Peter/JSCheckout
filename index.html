@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Choose a color</h1>
+      <nav>
+        <a href="index.html">Home</a><a href="selection.html">Checkout</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="grid_container">
+        <div class="item">
+            <h1 class="item_title">Red</h1>
+            <button class="item_button" id="red_button" item_name="red">Red</button>
+        </div>
+        <div class="item" style="background-color: lightblue;">
+            <h1 class="item_title">Blue</h1>
+            <button class="item_button" id="blue_button" item_name="blue">Blue</button>
+        </div>
+        <div class="item" style="background-color: rgb(255, 228, 110);">
+            <h1 class="item_title">Yellow</h1>
+            <button class="item_button" id="yellow_button" item_name="yellow">Yellow</button>
+        </div>
+
+
+
+
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
